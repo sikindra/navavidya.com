@@ -1,0 +1,9 @@
+[09-Mar-2022 09:46:40 UTC] PHP Warning:  require(/home/navavidya312/public_html/test/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/navavidya312/public_html/test/public/index.php on line 34
+[09-Mar-2022 09:46:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/navavidya312/public_html/test/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/navavidya312/public_html/test/public/index.php on line 34
+[09-Mar-2022 11:44:48 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/navavidya312/public_html/test/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/navavidya312/public_html/test/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/navavidya312/public_html/test/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/navavidya312/public_html/test/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/navavidya312/public_html/test/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/navavid in /home/navavidya312/public_html/test/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
